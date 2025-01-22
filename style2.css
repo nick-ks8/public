@@ -1,0 +1,41 @@
+
+* {
+    background-color: #333;
+}
+
+.bi {
+    color:rgb(235, 235, 235)
+}
+
+.main {
+    position: relative;
+    height: 600px;
+    top:50px;
+    margin:0 auto;
+    width:600px;
+    /* background-color: rgb(197, 84, 84); */
+    text-align: center;
+    overflow: hidden;
+
+}
+
+
+.main a {
+    display:block;
+    margin-top: 90px;
+}
+
+.main img {
+    transition: 1s; /* Время эффекта */
+    margin: 0 auto;
+    /* transform: translate(50%,+50%); */
+    display:block;
+    width:400px;
+    height: 400px;
+    
+}
+
+
+.main img:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
